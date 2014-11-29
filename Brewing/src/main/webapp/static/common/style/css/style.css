@@ -1,0 +1,88 @@
+@font-face {
+  font-family: Klavika;
+  src: url('font/Klavika-Regular.otf');
+}
+
+@font-face {
+  font-family: Klavika;
+  font-style: italic;
+  src: url('font/Klavika-RegularItalic.otf');
+}
+
+@font-face {
+  font-family: Klavika;
+  font-weight: bold;
+  src: url('font/Klavika-Bold.otf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#app-header {
+  font-family: 'Klavika';
+  background: url("img/header-bg.png");
+  text-align: center;
+  padding: 0 8px 0 8px;
+}
+
+#app-header .top {
+  height: 45px;
+}
+
+#app-header .bottom {
+  height: 46px;
+}
+
+#app-header .page-title{
+  font-size: 24px;
+  float: left;
+  color: #ccc;
+  margin-top: 15px;
+}
+
+#app-header .geomec-logo {
+  float: right;
+  margin-top: 10px;
+}
+
+.loading {
+  background-image: url("img/loading.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.person-image {
+  background: url("img/person.jpg") no-repeat;
+}
+
+.cycle-selector {
+  font-size: 16px;
+  float: left;
+  color: #ccc;
+  margin-left:10px;
+  margin-top: 15px;
+}
+
+#app-header .user {
+  float: right;
+  font-size: 16px;
+  color: #ccc;
+  margin-right: 10px;
+  margin-top: 7px;
+}
+
+#app-header a:HOVER{
+  color:white;
+}
+#app-header a{
+  
+}
+
+#app-header i {
+  margin-left:3px;
+  margin-right:3px;
+}
+#app-header .logout{
+  color: black
+}
