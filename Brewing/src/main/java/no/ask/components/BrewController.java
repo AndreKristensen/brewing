@@ -49,7 +49,7 @@ public class BrewController {
     @RequestMapping(value = "/labels", method = RequestMethod.GET)
     public String labels(Model model) {
 
-        String[] img = { "asklogo.png", "aaa.jpg", "ab.jpg", "acorn.jpg", "blackipa.jpg", "cw.jpg", "fløyenipa.jpg", "godjul.jpg", "habaneromw.jpg", "hipa.jpg", "hmw.jpg", "milkystout.jpg",
+        String[] img = { "asklogo.png", "aaa.jpg", "ab.jpg", "acorn.jpg", "blackipa.jpg", "cw.jpg", "floyenipa.jpg", "godjul.jpg", "habaneromw.jpg", "hipa.jpg", "hmw.jpg", "milkystout.jpg",
                 "ogn.jpg", "po.jpg", "polaris.jpg", "wizen.jpg" };
         model.addAttribute("img", img);
 
