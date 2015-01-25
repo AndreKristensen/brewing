@@ -24,7 +24,7 @@ public class FileHandler {
 
         URL url = new URL("https://dl.dropboxusercontent.com/u/12952773/report.csv");
         InputStream in = url.openStream();
-        InputStreamReader is = new InputStreamReader(in);
+        InputStreamReader is = new InputStreamReader(in,"UTF-8");
         StringBuilder sb = new StringBuilder();
         BufferedReader br = new BufferedReader(is);
         String read = br.readLine();
